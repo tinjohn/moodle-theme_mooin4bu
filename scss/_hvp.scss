@@ -1,0 +1,28 @@
+.hvp {
+    .flex-fill.description-inner {
+        width: 100%;
+    }
+    iframe {
+        width: 100%;
+        min-width: 100%;
+    }
+    .activity-item {
+        padding: 0;
+        border: none;
+    }
+    
+}
+#page-mod-hvp-embed {
+    .embedded-main {
+        h2:first-of-type {
+            display: none;
+          }
+        .activity-header {
+            display: none;
+        }
+    }
+}
+.parent-iframe {
+    transition: height 0.1s ease-out;
+
+}

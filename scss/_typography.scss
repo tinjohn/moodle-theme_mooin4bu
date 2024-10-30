@@ -1,0 +1,70 @@
+// h1 {
+//   line-height: $mooin-line-height-lg;
+//   font-size: $h1-font-size;
+// }
+// h2 {
+//   line-height: $mooin-line-height-md;
+//   font-size: $h2-font-size;
+// }
+// h3 {
+//   font-size: $h3-font-size;
+// }
+// h4 {
+//   font-size: $h4-font-size;
+// }
+// h3,
+// h4,
+// h5 {
+//   line-height: $mooin-line-height-sm;
+//   font-size: $h5-font-size;
+// }
+
+h1 {
+  font-size: 2.125rem;
+  font-weight: bold;
+  line-height: 3.188rem;
+}
+h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 2.25rem;
+}
+h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1.5rem;
+}
+h4 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  line-height: 1.5rem;
+}
+h5 {
+  font-size: 1.125rem;
+  font-weight: bold;
+  line-height: 1.5rem;
+}
+
+.caption {
+  color: $primary;
+  font-size: 1rem;
+  font-weight: 700;
+
+  &--sm {
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+  }
+}
+
+.coursefrontpage__course-table {
+  h3 {
+    font-size: 1rem;
+  }
+}
+
+.blue-info-text {
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 25px;
+  color: #004161;
+}

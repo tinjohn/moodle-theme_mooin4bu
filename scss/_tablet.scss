@@ -1,0 +1,59 @@
+.tablet-tiles {
+  margin: 1.5rem 1.875rem;
+  .coursefrontpage__badges-certificates {
+    padding: 0;
+
+    .tiles-wrapper {
+      display: flex;
+      gap: 30px;
+      
+
+      .badges-container {
+        flex: 1;
+        margin-bottom: 0;
+      }
+      .certificates-container {
+        flex: 1;
+      }
+    }
+  }
+
+  .seperator {
+    margin: 1.5rem 0;
+  }
+
+  .coursefrontpage__community {
+    padding: 0;
+    .tiles-wrapper {
+      display: flex;
+      gap: 30px;
+      height: 13rem;
+
+      .discussion-preview {
+        flex: 1;
+        margin-bottom: 0;
+        width: 0;
+
+        .no-discussion-img {
+          background-image: url([[pix:theme|no_posts]]);
+          height: auto;
+          width: 100%;
+          background-size: contain;
+          background-position: center;
+          height: 6rem;
+          background-repeat: no-repeat;
+        }
+      }
+      .participants-container {
+        flex: 1;
+        position: relative;
+
+        .participants-link {
+          position: absolute;
+          right: 0.5rem;
+          bottom: 0.5rem;
+        }
+      }
+    }
+  }
+}

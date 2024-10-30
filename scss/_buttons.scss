@@ -1,0 +1,82 @@
+.mooin4-btn {
+  position: relative;
+  font-weight: 500;
+  font-size: 0.6rem;
+  line-height: 1.3125rem;
+  text-transform: uppercase;
+  border-radius: 0.4rem;
+  //width: 100%;
+  height: 2.3125rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-decoration: none;
+  padding: 0 1rem;
+  border: 1px solid #004161;
+  color: #004161;
+  background-color: white;
+
+  &:hover {
+    text-decoration: none;
+  }
+
+  @media (min-width: 350px) {
+    font-size: 0.75rem;
+  }
+
+  &--primary {
+    color: white;
+    background-color: #004161;
+    &:hover {
+      text-decoration: none;
+      color: #fff;
+    }
+  }
+}
+
+button.mooin4-btn.comp_btn {
+  width: 330px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  border-radius: 0.5rem;
+  margin: 2rem auto;
+  border: none;
+  background-color: #b8c1ca !important;
+  color: #373a3c;
+  outline: none;
+  box-shadow: none;
+
+  @include media-breakpoint-down(md) {
+    width: min(330px, 100%);
+  }
+
+  i {
+    font-size: 2rem;
+    color: #7fb99f;
+  }
+}
+
+a[role="button"],
+a:not([class]):focus {
+  &:focus {
+    box-shadow: none;
+    background-color: transparent;
+  }
+}
+
+.mooin4-btn.unenrol-btn {
+  color: black;
+  background: #b8c1ca;
+  margin: 0 auto;
+  text-transform: uppercase;
+  border: none;
+  box-shadow: none;
+  display: flex;
+  gap: 0.5rem;
+  margin: 1rem;
+  .bi {
+    font-size: 1.5rem;
+  }
+  //font-size: 0.75rem;
+}
